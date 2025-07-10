@@ -1,0 +1,70 @@
+.box{
+    height:100px ;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: widthanimate ,colorAnimate,fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay:0;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    /*animation: widthanimation 3s ease-in 0s infinite normal shorthand way of writing animation;*/
+}
+
+@keyframes widthanimate {
+    from{
+        width:10px;
+    }
+    to{
+        width:300px;
+        border-radius:10px
+    }
+
+}
+
+@keyframes  fontAnimation {
+
+    from{
+        font-size:20px
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes colorAnimate {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+h1{
+    background-color: yellow;
+    border:2px solid black;
+}
+
+
+@media(max-width:200px) and (min-width:300px){/*and is  setting a range*/
+    h1{
+        background-color: red;
+        color:white
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color:blue ;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: aqua;
+        color:brown;
+    }
+}

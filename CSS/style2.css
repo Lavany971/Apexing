@@ -1,0 +1,131 @@
+/* *{}use to select all elements*/
+*{
+    font-family:"courier new";
+    background-color: white;
+}
+
+
+h1 ,h3{
+    color:rgb(244, 22, 36);
+}
+
+/* id use to select element with id login */
+#login{
+    background-color: rgb(218, 174, 174);
+    color:white;
+}
+
+
+#signup{
+    background-color: rgb(244, 22, 36);
+    color:white;
+}
+
+/*.myclass use to select all elements with class myclass*/
+.upvote{
+    background-color: beige;
+    color: black;
+} 
+
+/* Most used , descendant selector ussed for selecting elements that are inside another element */
+
+p a{
+    color:brown;
+    background-color:rgb(239, 216, 216);
+    text-decoration: none;
+}
+ 
+
+/*  Sibling combination selector used to select elements that are inside another element and have a specific class */
+
+ p+h3{
+    text-decoration: underline; 
+    }
+
+.upvote + button{ 
+    color:red;
+    background-color: lightgray;
+}
+
+/*  Child selector used to select elements that are direct children of another element */
+
+
+div>input{
+    background-color: lightblue;
+
+}
+
+/*  Attribute selector used to { change the color of text in username & password} select elements with a specific attribute  */
+
+input[type="text"] {
+    color:rgb(68, 193, 23);
+} 
+
+
+input[type="password"] {
+    color:rgb(177, 10, 10);
+} 
+
+input[type] {
+    background-color: ghostwhite;
+} 
+
+/*  Pseudo-class selector used to change the color of text when hovered over */
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 47, 47);
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/* active selector used to change the color of text when clicked */
+button:active {
+    background-color: rgb(184, 93, 165);
+    color:rgb(9, 9, 19)
+
+}
+
+p:active {
+    font-weight:400;
+    color:darkgreen;
+
+}
+
+/* checkbox selector used to change the color of text when checked of radio button or checkbox */
+input[type="radio"]:checked + label {
+    color:rgb(33, 174, 196);
+    font-weight: bold;
+}
+
+/* nth-of-type selector used to select every second element of a specific type */
+div:nth-of-type(1n) {
+    background-color: rgb(229, 228, 226);
+}
+
+
+
+/* Pseudo-element selector used to add content before an element */
+
+/* ::first-letter selector used to change the color of the first letter of an element */
+h1::first-letter {
+    color: rgb(22, 191, 233);
+}
+
+/* ::first-line selector used to change the color of the first line of an element */
+p::first-line{
+    color: red
+}
+
+/* ::selection selector used to change the color of the selected text */
+p::selection{
+    background-color: rgb(209, 189, 182);
+}
+
+ /*dispaly:inline-block is used to make the divs inline*/
+     
+    
+
+
+

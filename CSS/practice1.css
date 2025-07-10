@@ -1,0 +1,42 @@
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px black;
+    }
+
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius:0 0 50px 50px;
+    position: absolute;
+    top:250px;
+    left: 100px;
+}
+.left{
+    width:40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:90px;
+    left: 100px;
+}
+
+.right{
+     width:40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:90px;
+    left: 260px;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+   
+}

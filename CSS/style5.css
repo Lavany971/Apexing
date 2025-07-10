@@ -1,0 +1,88 @@
+#container {
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+     /*display:flex is us to align the divs vertically*/
+    display: flex;
+
+   
+    /*flex-direction: column is used to align the divs vertically*/
+    /*flex-direction: row is used to align the divs horizontally*/
+    /*flex-direction: row-reverse is used to align the divs horizontally in reverse order*/
+    /*flex-direction: column-reverse is used to align the divs vertically in reverse order*/
+    /*flex-direction: row-reverse is used to align the divs horizontally in reverse order*/
+    flex-direction: row;
+
+    /*justify-content is used to align the divs horizontally*/
+    justify-content: flex-start;
+
+    /*flex-wrap is used to wrap the divs if they exceed the width of the container*/
+    flex-wrap: nowrap ; 
+
+    /*align-items is used to align the divs vertically*/
+   /* align-items : baseline; 
+    
+
+
+    /*align-content is used to align the divs vertically when there is extra space in the container*/
+    /*align-content: center; is used to align the divs vertically in the center; of the container*/
+    /*align-content: flex-start is used to align the divs vertically at the start of the container*/
+    /*align-content: flex-end is used to align the divs vertically at the end of the container*/
+    /*align-content: space-between is used to align the divs vertically with equal space between them*/
+    /*align-content: space-around is used to align the divs vertically with equal space around them*/
+    /*align-content: stretch is used to stretch the divs vertically to fill the container*/
+    /*align-content: baseline is used to align the divs vertically*/
+    align-content: flex-start;
+  
+}
+
+
+
+#org{
+    /*align-self is used to align a specific div vertically... apply for specific divs*/
+    align-self: flex-start;
+
+    /*flex-basic is used to set the size of the divs..apply for specific div*/
+    /* flex-basis: 50px; */
+
+    /*flex-grow is used to set the size of the divs when there is extra space in the container..apply for specific div*/
+    /* flex-grow:1; */
+    /* flex-shrink: 1; */
+    /*flexShorthand is used to add all flex properties in one line..apply for specific div*/
+    /*flex: flex-grow,flex-shrink,flex-basis*/
+    flex: 1 1 50px; 
+
+}
+
+#blue{
+   /* flex-basis: 400px; */
+   /* flex-grow: 4; */
+   max-width: 400px;
+   flex-shrink: 1;
+}
+
+
+
+h1{
+    text-align: center;
+}
+ 
+
+#container div{
+    height: 100px;
+    width:300px;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+  
+}
+
+
+
+
+
+
+
+

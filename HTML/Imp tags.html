@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <body>
+    <!--Header section is for main topic -->
+    <header>
+       <h1>My Portfolio</h1>
+    </header>
+
+    <!-- Pre tags Used to display text as it is (without ignoring spaces & next line)-->
+    <pre>This      is      my     Html       code...</pre>
+
+    <!--Main  is for main content-->
+    <main>
+        <!-- section is for section of our page-->
+        <section>
+            Education : NSIT(COE) | School
+        </section>
+         <section>
+            Experience : Microsoft | Amazon | Google
+        </section>
+
+        <!--Article section is for articles on your page-->
+        <article>My Story : </article>
+
+        <!--Link section is for links-->
+        <!--Targets=(main) are use to open a new tab for link-->
+        <a href="https://google.com" target="main">
+            <img scr="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" alt="google"></a>
+
+
+        <!--Aside section is for aside a things from your code but remains their (ads)-->
+        <aside>This is an Ads</aside>
+
+        <!--Div section is for containing things for others HTML elements-->
+        <!--Div is a block level element-->
+        <div> 
+            <p>This is a paragraph inside a div.</p>
+            <p>Divs are used to group content together.</p>
+            <p>They can be styled with CSS.</p>
+        </div>
+        <div>
+            <p>This is another paragraph inside a different div.</p>
+            <p>Divs can also be nested inside each other.</p>
+            <p>They are very useful for layout purposes.</p>
+        </div>
+
+        <!--span is a inline element-->
+        <span>hello</span>
+
+
+        <!--table section-->
+        <!--tr for display table row-->
+        <!--td for display table data-->
+        <!--th for display table header-->
+        <table border="1" cellpadding="5" cellspacing="1">
+
+
+            <!--thead is used to group the header content of the table-->
+            <thead>
+
+            <!--caption is used to give a title to the table-->
+            <caption>Student details</caption>
+
+            <tr>
+                <th>Name </th>
+                <th>Roll No.</th>
+            </tr>
+            </thead>
+
+
+            <!--tbody is used to group the body content of the table-->
+            <tbody>
+            <tr>
+                <td>Lavany</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Lavany</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Lavany</td>
+                <td>16</td>
+            </tr>
+            <tr>
+
+                <!-- colspan is used to merge the cells in a row -->
+                <td colspan="2">Total Students: 3</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </main>
+    <hr>
+
+
+    <!--Form section is for form-->
+    <h2>Registration</h2>
+    <form action="www.google.com">
+
+       <!--Input type section is for input fields-->
+        <input type="text" placeholder="Username" width="200px" required>
+        <br><br>
+        <input type="password" placeholder="password" >
+        <br>
+
+
+        <!--label is used to give a text to the input field-->
+        <label for="id1">
+
+        <!--input type radio is used to select one option from the given options-->
+            <input type="radio" value="class XI" name="class" id="id1">Class xi
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="class XII" name="class" id="id2">Class xii
+        </label><br>
+
+
+        <label for="math"> 
+        <!--input type checkbox is used to select multiple options from the given options-->
+            <input type="checkbox" value="math" name="subject" id="id1">Math
+            </label>
+            <br>
+            <label></label>
+            <input type="checkbox" value="physics" name="subject" id="id2">Physics
+            </label> 
+            <br>
+            <label>
+            <input type="checkbox" value="chemistry" name="subject" id="id3">Chemistry
+            </label>
+            <br>
+
+            <!--select is used to select one option from the given options-->
+            <!--option is used to give the options to the select tag-->
+            Select your city:
+            <select name=" city">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="chennai">Chennai</option>
+                <br>
+            </select>
+            <br><br>
+
+            <!--textarea is used to give a text area to the user to enter the text-->
+            <textarea name="feedback" id="id1" placeholder="Feedback"></textarea>
+            <br>
+
+            <!--input type submit is used to submit the form-->
+            <input type="submit" value="Submit">
+ </form>
+
+
+
+<!--iframe is for embedding another document within the current HTML document-->
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ajdRvxDWH4w?si=RvIiB6PSptcR2aWP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <!--video is for embedding video in the current HTML document-->
+    <video width="320" height="240" controls scr="https://www.youtube.com/embed/ajdRvxDWH4w?si=RvIiB6PSptcR2aWP" >My video</video>
+    <br><br>
+    <hr>
+
+
+
+    <table border="Black">
+    <caption>A test table with merged cells</caption>
+    <thead>
+      <tr>
+        <th colspan="1" rowspan="2"></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red eyes</th>
+      </tr>
+      <tr>
+        <th>Height</th>
+        <th>Weight</th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+  <hr>
+
+
+  <form action="/action.php">
+    Username
+    <input type="text">
+    <br>
+    password
+    <input type="password">
+    <br>
+    number
+    <input type="number">
+    <br>
+    time
+    <input type="time"/>
+    <br>
+    color
+    <input type="color">
+
+    
+  </form>
+  
+
+
+    <!--Footer section is for footer-->
+        <footer>
+            <h5>Contact Us</h3>
+        </footer>
+ 
+     
+    
+</body>
+</html>
